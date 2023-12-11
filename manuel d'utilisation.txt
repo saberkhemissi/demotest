@@ -1,0 +1,31 @@
+Pour configurer et exécuter les tests avec Cypress, Allure Report et Cucumber, suivez ces étapes :
+
+1. Installation :
+1.1. Cloner le Projet :
+
+Effectuez un clonage du projet depuis le référentiel.
+1.2. Installer Cypress Version 12.10.0 :
+
+Procédez à l'installation de Cypress en utilisant la version 12.10.0 avec la commande adéquate.
+1.3. Installer le Plugin Cypress pour Allure :
+
+Ajoutez le plugin Cypress pour Allure en tant que dépendance du projet.
+1.4. Installer le Plugin Mochawesome :
+
+Installez le plugin Mochawesome pour améliorer la génération des rapports.
+1.5. Installer Cucumber et les Dépendances :
+
+Installez Cucumber et ses dépendances nécessaires pour l'intégration avec Cypress.
+2. Exécuter les Tests :
+2.1. Exécuter la Commande npm run allure:clear :
+
+Utilisez la commande npm run allure:clear pour effacer les données précédentes du rapport Allure (consultez les détails dans le fichier package.json).
+2.2. Exécuter la Commande npm run test:prod :
+
+Lancez les tests sur l'environnement de production en utilisant la commande npm run test:prod (voir les détails dans le fichier package.json).
+2.3. Exécuter la Commande npm run allure:report :
+
+Générez le rapport Allure en utilisant la commande npm run allure:report (consultez les détails dans le fichier package.json).
+2.4. Exécuter la Commande allure open :
+
+Utilisez la commande allure open pour ouvrir le rapport Allure dans le navigateur.
